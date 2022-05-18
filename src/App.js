@@ -37,11 +37,11 @@ const App = () => {
         - otherwise just return the post object unchanged.
      */
     console.log(postId);
-    setPosts(posts.map(postId => {
-      if(posts.id ===  postId) {
+    const mappedPosts = posts.map(post => {
+      if(post.id ===  postId) {
         console.log(posts.id.indexOf)
       }
-    }))
+    })
   };
 
   return (
